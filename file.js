@@ -4,7 +4,7 @@ const fs=require("fs");
 // const res=fs.readFileSync("./text.txt","utf-8");
 // console.log('res: ', res);
 fs.readFile("./text.txt","utf-8",(err,res)=>{
-    if(err){
+    if(err){huheudh
         console.log("error");
     }else{
         console.log(res);
