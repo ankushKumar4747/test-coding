@@ -1,13 +1,13 @@
-let a=2;
+let a=false;
 let b=3;
 switch(a) {
-    case a==0:
+    case null:
         console.log("a is zero");
        break;
-    case a<b:
+    case "":
         console.log("a is one");
      break
-    case b<a:
+    case 0:
         console.log("a is two");
     break
     default:
@@ -15,4 +15,8 @@ switch(a) {
 }
 
 
-'=='  '==='
+
+2==2
+"2"==2
+2===2
+"2"===2
