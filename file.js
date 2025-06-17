@@ -5,6 +5,7 @@ const fs=require("fs");
 // console.log('res: ', res);
 fs.readFile("./text.txt","utf-8",(err,res)=>{
     if(err){
+        console.log("no error")
         console.log("error");
     }else{
         console.log(res);
